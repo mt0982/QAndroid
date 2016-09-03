@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/s">
+        <file>shader.fsh</file>
+        <file>shader.vsh</file>
+    </qresource>
+    <qresource prefix="/t">
+        <file>Texture/metal_ao.jpg</file>
+        <file>Texture/metal_n.jpg</file>
+        <file>Texture/metal_s.jpg</file>
+        <file>Texture/metal.jpg</file>
+    </qresource>
+</RCC>
