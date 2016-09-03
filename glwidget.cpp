@@ -34,7 +34,7 @@ void GLWidget::initializeGL()
 {
     initializeOpenGLFunctions();
     glClearColor(0.0, 0.0, 0.0, 1.0);
-    glEnable(GL_DEPTH_TEST);
+    glEnable(GL_DEPTH_TEST);//
 
     /* Shader Program */
     program.addShaderFromSourceFile(QOpenGLShader::Vertex, ":/s/shader.vsh");
