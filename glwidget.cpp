@@ -39,7 +39,7 @@ void GLWidget::initializeGL()
     /* Shader Program */
     program.addShaderFromSourceFile(QOpenGLShader::Vertex, ":/s/shader.vsh");
     program.addShaderFromSourceFile(QOpenGLShader::Fragment, ":/s/shader.fsh");
-    program.link();
+    program.link();////
 
     /* Textures */
     diffuseMap = new QOpenGLTexture(QImage(":/t/Texture/metal.jpg"));
